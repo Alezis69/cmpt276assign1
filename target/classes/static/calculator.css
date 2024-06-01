@@ -1,0 +1,84 @@
+header {
+    font-size: 24px;
+    font-weight: bold;
+    padding: 25px;
+    background-color: white;
+}
+
+.container {
+    background-color: #E0E0E0;
+    width: 1000px;
+    margin-left: 25px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    padding: 10px;
+}
+
+h1, h3 {
+    color: #B22222;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+h2 {
+    color: #000;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    table-layout: fixed;
+}
+
+th {
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #C0C0C0;
+    padding: 8px;
+    text-align: left;
+    border: 1px solid black;
+}
+
+td {
+    font-size: 14px;
+    padding: 8px;
+    border: 1px solid black;
+}
+
+input[type="number"] {
+    width: 35%;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 4px 8px;
+    margin: 10px 0;
+}
+
+.resultButtons button {
+    background-color: #B22222;
+    color: white;
+    font-size: 140%;
+    padding: 8px 12px;
+    margin: 0 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.resultButtons {
+    text-align: right;
+}
